@@ -7,6 +7,6 @@ export default [
   {
     path: '/reports/query',
     name: 'report-query',
-    component: () => import('@/views/reports/report-query/query.vue'),
+    component: () => import('@/views/reports/report-query/index.vue'),
   },
 ]
